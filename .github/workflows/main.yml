@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN_1 }}
-        run: git push --force https://Satyaranjan:$HF_TOKEN@huggingface.co/spaces/Satyaranjan/QA_Generation main
+        run: git push --force https://Satyaranjan:$HF_TOKEN_1@huggingface.co/spaces/Satyaranjan/QA_Generation main
